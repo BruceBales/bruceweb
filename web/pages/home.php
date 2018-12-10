@@ -1,5 +1,7 @@
 <?php
 
+namespace Blog\Pages;
+
 class home
 {
     public function __construct() {
