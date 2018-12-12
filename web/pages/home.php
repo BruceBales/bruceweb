@@ -4,9 +4,6 @@ namespace Blog\Pages;
 
 class home
 {
-    public function __construct() {
-        return "testing";
-    }
 
     public function Data() {
         $view_data = array();
