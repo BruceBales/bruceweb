@@ -4,3 +4,4 @@
 
 
 include "./pages/home.php";
+include "./pages/post.php";

@@ -1,8 +1,9 @@
 CREATE SCHEMA IF NOT EXISTS blog;
 USE blog;
 CREATE TABLE IF NOT EXISTS `posts` (  `id` int(11) NOT NULL AUTO_INCREMENT,
+`blog` int(45) DEFAULT NULL,
 `author` varchar(45) DEFAULT NULL,
-`title` int(45) DEFAULT NULL,
+`title` varchar(45) DEFAULT NULL,
 `content` varchar(45) DEFAULT NULL,
 PRIMARY KEY (`id`),
 UNIQUE KEY `id_UNIQUE` (`id`)) ENGINE=InnoDB AUTO_INCREMENT=77 DEFAULT CHARSET=latin1

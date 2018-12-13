@@ -16,3 +16,5 @@ services:
       - ./mysql-dump:/docker-entrypoint-initdb.d
     environment:
       - MYSQL_ROOT_PASSWORD=testing
+    ports:
+      - "3306:3306"
